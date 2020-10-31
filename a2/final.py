@@ -2,6 +2,7 @@ import os
 import socket
 import time
 
+# sewon is foolish.
 def fileHtml(filename,connectionSocket):
 	connectionSocket.sendall(str.encode("HTTP/1.1 200 OK\n",'iso-8859-1'))
 	connectionSocket.sendall(str.encode('Content-Type: text/html\n', 'iso-8859-1'))
